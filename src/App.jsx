@@ -10,7 +10,7 @@ function App() {
     <>
       <Hero />
       <Projects/>
-      <Experience/>
+      {/* <Experience/> */}
       <Skills/>
       <Footer/>
     </>

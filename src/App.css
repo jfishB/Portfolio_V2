@@ -40,19 +40,19 @@ h1, h2, h3, p {
 }
 
 h2, h3, p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', monospace;
 }
 
-h1, h2 {
+/* h1 {
     text-transform: uppercase;
-}
+} */
 
 h2, h3 {
     font-size: 20px;
 }
 
 h1 {
-    font-family: 'Rubik', 'sans-serif';
+    font-family: 'Montserrat', 'sans-serif';
     font-size: 32px
 }
 
@@ -61,7 +61,12 @@ p {
     font-weight: 300;
 }
 
+.sectionDescription {
+    margin-bottom: 10px;
+}
+
 .sectionTitle {
+    font-weight: 200;
     margin-bottom: 30px;
 }
 
