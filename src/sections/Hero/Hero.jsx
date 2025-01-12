@@ -16,7 +16,7 @@ function Hero() {
   const themeIcon = theme === "light" ? sun : moon;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
-  const emailIcon = theme === "light" ? emailLight : emailDark;
+  // const emailIcon = theme === "light" ? emailLight : emailDark;
 
 
   return (
@@ -47,9 +47,9 @@ function Hero() {
           <a href="https://www.linkedin.com/in/jeevesh0126/" target="_blank">
             <img src={linkedinIcon} alt="LinkedIn icon" />
           </a>
-          <a href="mailto:john@example.com" target="_blank">
+          {/* <a href="mailto:john@example.com" target="_blank">
             <img src={emailIcon} alt="Email icon" />
-          </a>
+          </a> */}
         </span>
         <p className={styles.description}>First Year Computer Science Student at the <strong>University of Toronto.</strong> Currently a Website Developer for <strong>UofT Machine Intelligence Student Team!</strong></p>
         <a href={CV} download>
