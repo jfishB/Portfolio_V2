@@ -1,14 +1,12 @@
-import styles from './FooterStyles.module.css'
+import styles from "./FooterStyles.module.css";
 
 function Footer() {
   return (
     <section id="footer" className={styles.container}>
-        <hr />
-        <p>
-            Jeevesh Balendra
-        </p>
+      <hr />
+      <p>Jeevesh Balendra | jeevesh.balendra@mail.utornto.ca</p>
     </section>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

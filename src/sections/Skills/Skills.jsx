@@ -15,10 +15,7 @@ function Skills() {
             <SkillList src={checkMarkIcon} skill='Python'/>
             <SkillList src={checkMarkIcon} skill='Java'/>
         </div>
-        <hr />
-        <div className={styles.skillList}>
-            
-        </div>
+        {/* <hr /> */}
     </section>
   )
 }

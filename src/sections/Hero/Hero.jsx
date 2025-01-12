@@ -2,7 +2,8 @@ import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/hero-img.jpg";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
-import twitterIcon from "../../assets/twitter-light.svg";
+import emailLight from "../../assets/emailLight.png";
+import emailDark from "../../assets/email.png";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
@@ -15,6 +16,7 @@ function Hero() {
   const themeIcon = theme === "light" ? sun : moon;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
+  const emailIcon = theme === "light" ? emailLight : emailDark;
 
 
   return (
@@ -44,6 +46,9 @@ function Hero() {
           </a>
           <a href="https://www.linkedin.com/in/jeevesh0126/" target="_blank">
             <img src={linkedinIcon} alt="LinkedIn icon" />
+          </a>
+          <a href="mailto:john@example.com" target="_blank">
+            <img src={emailIcon} alt="Email icon" />
           </a>
         </span>
         <p className={styles.description}>First Year Computer Science Student at the <strong>University of Toronto.</strong> Currently a Website Developer for <strong>UofT Machine Intelligence Student Team!</strong></p>
