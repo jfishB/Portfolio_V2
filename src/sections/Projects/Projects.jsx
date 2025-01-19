@@ -7,7 +7,7 @@ import bomberman from "../../assets/bomberman.png"
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
-      {/* <h2 className="sectionDescription">I Build:</h2> */}
+      {/* <h2 className="sectionDescription">I Like to Build:</h2> */}
       <h1 className="sectionTitle">PROJECTS</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard

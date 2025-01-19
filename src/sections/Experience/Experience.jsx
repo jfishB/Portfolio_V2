@@ -27,6 +27,7 @@ function Experience() {
 
   return (
     <section id="experience" className={styles.container}>
+      {/* <h2 className="sectionDescription">Some of my Work:</h2> */}
       <h1 className="sectionTitle">EXPERIENCE</h1>
       <div className={styles.experienceList}>
         {experiences.map((experience, index) => (
