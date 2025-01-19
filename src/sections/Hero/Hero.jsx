@@ -51,7 +51,12 @@ function Hero() {
             <img src={emailIcon} alt="Email icon" />
           </a> */}
         </span>
-        <p className={styles.description}>First Year Computer Science Student at the <strong>University of Toronto.</strong> Currently a Website Developer for <strong>UofT Machine Intelligence Student Team!</strong></p>
+        <p className={styles.description}>
+          First Year Computer Science Student at the <strong>University of Toronto.</strong>
+          <br />
+          <br />
+          Currently a Website Developer for <strong>UofT Machine Intelligence Student Team!</strong>
+        </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>

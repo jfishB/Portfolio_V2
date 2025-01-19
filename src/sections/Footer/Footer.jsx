@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section id="footer" className={styles.container}>
       <hr />
-      <p>Jeevesh Balendra | jeevesh.balendra@mail.utornto.ca</p>
+      <p>Jeevesh Balendra | jeevesh.balendra@mail.utoronto.ca</p>
     </section>
   );
 }

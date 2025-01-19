@@ -11,8 +11,8 @@ import SkillList from '../../common/SkillList'
 function Skills() {
   return (
     <section id='skills' className={styles.container}>
-        <h2 className='sectionDescription'>Here are a some tools I'm familar with.</h2>
-        <h3 className='sectionTitle'>Skills</h3>
+        {/* <h2 className='sectionDescription'>I Learn:</h2> */}
+        <h1 className='sectionTitle'>SKILLS</h1>
         <div className={styles.skillList}>
             <SkillList className={styles.skillCard} src={html} skill='HTML'/>
             <SkillList className={styles.skillCard} src={css} skill='CSS'/>
