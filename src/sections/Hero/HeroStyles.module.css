@@ -57,6 +57,7 @@
 }
 
 .colorModeContainer {
+  padding-top: 8vh;
   position: relative;
 }
 
@@ -67,7 +68,7 @@
 
 .colorMode:hover {
   cursor: pointer;
-}  
+}
 
 .description {
   max-width: 24ch;
