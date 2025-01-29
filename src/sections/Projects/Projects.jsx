@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section id="projects" className={styles.container}>
       {/* <h2 className="sectionDescription">I Like to Build:</h2> */}
-      <h1 className="sectionTitle">PROJECTS</h1>
+      <h1 className="sectionTitle">projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={flashcards}
