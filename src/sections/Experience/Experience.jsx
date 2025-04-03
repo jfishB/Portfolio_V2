@@ -21,7 +21,7 @@ function Experience() {
       company: "Markville Web Devlopment Club",
       duration: "Sept 2023 - June 2024",
       description:
-        "Taught a class of over 20 students about HTML, CSS, and JavaScript as well as their applications",
+        "Taught a class of over 20 students about HTML, CSS, and JavaScript applications",
     },
   ];
 
