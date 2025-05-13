@@ -55,7 +55,7 @@ function Hero() {
           First Year Computer Science Student at the <strong>University of Toronto.</strong>
           <br />
           <br />
-          Currently a Website Developer for <strong>UofT Machine Intelligence Student Team!</strong>
+          Currently a Research Student at <strong>SickKids!</strong>
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
