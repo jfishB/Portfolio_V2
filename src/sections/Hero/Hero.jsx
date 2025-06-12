@@ -18,11 +18,10 @@ function Hero() {
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
   // const emailIcon = theme === "light" ? emailLight : emailDark;
 
-
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
-        <img className={styles.hero} src={heroImg} alt="Profile picture"/>
+        <img className={styles.hero} src={heroImg} alt="Profile picture" />
         <img
           className={styles.colorMode}
           src={themeIcon}
@@ -52,10 +51,11 @@ function Hero() {
           </a> */}
         </span>
         <p className={styles.description}>
-          First Year Computer Science Student at the <strong>University of Toronto.</strong>
+          First Year Computer Science Student at the{" "}
+          <strong>University of Toronto.</strong>
           <br />
           <br />
-          Currently a Research Student at <strong>SickKids!</strong>
+          Currently a Machine Learning Researcher at <strong>SickKids!</strong>
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
