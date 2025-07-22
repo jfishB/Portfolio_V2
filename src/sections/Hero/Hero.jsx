@@ -51,7 +51,7 @@ function Hero() {
           </a> */}
         </span>
         <p className={styles.description}>
-          First Year Computer Science Student at the{" "}
+          Second Year Computer Science Student at the{" "}
           <strong>University of Toronto.</strong>
           <br />
           <br />
